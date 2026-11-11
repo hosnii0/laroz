@@ -1,7 +1,12 @@
+
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "laroz",
-  "main": "worker.js",
+  "main": "./worker.js",
   "compatibility_date": "2026-11-11",
-  "workers_dev": true
+  "workers_dev": true,
+  "keep_vars": true,
+  "vars": {
+    "PHONE_NUMBER_ID": "1366379429899651"
+  }
 }
